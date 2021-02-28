@@ -1510,7 +1510,6 @@ TARGET_DEVICES += zyxel_wap6805
 
 define Device/zte_e8820s
   $(Device/dsa-migration)
-  $(Device/uimage-lzma-loader)
   BLOCKSIZE := 128k
   PAGESIZE := 2048
   KERNEL_SIZE := 4096k
